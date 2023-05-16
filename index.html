@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SheCodes</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="mobile-header">
+			<img src="img/logo.png" alt="The SheCodes Logo" class="logo">
+			<button class="hamburger-button">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hamburger-icon">
+					<path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+				</svg>
+			</button>
+		</div>
+		<nav class="desktop-nav">
+			<ul>
+				<li>
+					<a href="">Coders</a>
+				</li>
+				<li>
+					<a href="">Mentors</a>
+				</li>
+				<li>
+					<a href="">Partners</a>
+				</li>
+				<li>
+					<a href="">Blog</a>
+				</li>
+				<li>
+					<a href="">Contact</a>
+				</li>
+			</ul>
+		</nav>
+        <nav class="mobile-nav display-none">
+			<ul>
+				<li>
+					<a href="">Coders</a>
+				</li>
+				<li>
+					<a href="">Mentors</a>
+				</li>
+				<li>
+					<a href="">Partners</a>
+				</li>
+				<li>
+					<a href="">Blog</a>
+				</li>
+				<li>
+					<a href="">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section id="hero">
+		<h1>A <span class="hero-accent">movement</span> devoted to helping women learn tech skills.</h1>
+		<a href="#" class="btn-primary">Start Learning</a>
+	</section>
+	<section id="courses">
+		<article class="workshops">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+              </svg>
+                          <h2>1 Day Workshops</h2>
+			<p>
+				Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point.
+			</p>
+			<a href="#" class="btn-secondary">Apply</a>
+		</article>
+		<article class="flash">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+              </svg>
+                          <h2>1 Week Flash</h2>
+			<p>
+				Discover the fundamentals of tech in just one week. Flash is a one week taster program, aimed at teaching you the basics of the key emerging fields in tech.
+			</p>
+			<a href="#" class="btn-secondary">Apply</a>
+		</article>
+		<article class="plus">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>
+                          <h2>6 Month Plus</h2>
+			<p>
+				She Codes Plus is a program providing an alternate pathway within tech. The Plus program is perfect for you if your desire is to enter a tech career.
+			</p>
+			<a href="#" class="btn-secondary">Apply</a>
+		</article>
+	</section>
+	<section id="contact">
+		<h2>Get in touch</h2>
+		<form>
+			<label for="your-name">Your Name</label>
+			<input type="text" id="your-name">
+			<label for="city">Your City</label>
+			<select name="city-selection" id="city">
+				<option value="Brisbane">Brisbane</option>
+				<option value="Sydney">Sydney</option>
+				<option value="Moon">The Moon</option>
+			</select>
+			<label for="message">Your Message</label>
+			<textarea name="message-text" id="message" rows="10"></textarea>
+			<input type="submit" value="Submit">
+		</form>
+	</section>
+	<footer>
+		<small>Website made with ❤️ by <a href="linkedin">Andrew</a></small>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
